@@ -17,4 +17,8 @@
 - In /bin create a new kafka topic
 ```
 ./kafka-topics.sh --create --topic kafka-chat --replication-factor 1 --partitions 2 --zookeeper localhost:2181
+```i
+- To quickly test - post a message after running below command
+```
+./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic kafka-chat
 ```
