@@ -3,7 +3,6 @@ package com.mashcore.twaddlechat.configuration;
 import com.mashcore.twaddlechat.constants.KafkaConstants;
 import com.mashcore.twaddlechat.model.Message;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
